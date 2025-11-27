@@ -1,7 +1,7 @@
 import time
 
 tarefas = []
-
+#comentáio aleatório
 while True:
     item = input("Digite uma tarefa ou 'sair': ")
 
@@ -13,4 +13,5 @@ while True:
 
 print("\nLista final de tarefas:")
 for t in tarefas:
-    print("-", t) 
+    print("-", t)
+    print("-", t)
