@@ -1,0 +1,87 @@
+/*  ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centralizar o formuário na tela */
+body {
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(135deg, #5ba3f0, #7cd1c7);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translaterY(0); }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15ox;
+}
+
+/* Caixa do formulário */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 7x;
+    font-size: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 18px;
+    background-color: #4CAF50;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: -3s;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #45a047;
+    transform: scale(1.02);
+}
+
+/* ===== RESULTATO ===== */
+#resultado {
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 12px;
+    background-color: #e8f5e9;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+    display: none;
+}
+
+/*  ===== RESPONSIVIDADE ===== */
+@media (max-width: 450px) {
+    .container {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+}
