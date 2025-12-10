@@ -1,5 +1,5 @@
 listNumeros = [10, 20, 30, 40] # Aqui cria a lista e passa como parametro
-new = int(input("Digite um némero para inserir: ")) # Declara a variavel e recebe o valor inserido pelo terminal
+new = int(input("Digite um número para inserir: ")) # Declara a variavel e recebe o valor inserido pelo terminal
 pos = int(input("Digite a posição: ")) 
 
 listNumeros.insert(pos, new) # Insere o valor na posição atribuida
