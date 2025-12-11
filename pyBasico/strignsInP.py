@@ -99,3 +99,4 @@ print(texto[0:4]) # Prog
 print(texto[4:10]) # ramaç
 print(texto[5:]) # amação
 print(texto[:7]) # Program
+
