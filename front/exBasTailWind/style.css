@@ -1,0 +1,12 @@
+.Botão-do-Churras {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem; /* 8px vertical, '6px horizontal */
+    border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.Botão-do-Churras:hover {
+    background-color: #1d4ed8;
+}
